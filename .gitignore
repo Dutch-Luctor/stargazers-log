@@ -1,0 +1,53 @@
+# ==========================================
+# 1. SECRETS & ENVIRONMENT VARIABLES
+# ==========================================
+.env
+.env.local
+.env.*.local
+
+# But always track the example template file
+!.env.example
+
+# ==========================================
+# 2. DEPENDENCIES & PACKAGE MANAGERS
+# ==========================================
+node_modules/
+jspm_packages/
+web_modules/
+venv/
+.venv/
+env/
+
+# ==========================================
+# 3. BUILD OUTPUTS, BINARIES & DISTRIBUTIONS
+# ==========================================
+dist/
+build/
+out/
+target/
+*.exe
+*.dll
+*.so
+*.war
+*.jar
+
+# ==========================================
+# 4. LOGS, CACHES & TEMPORARY FILES
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+.eslintcache
+.cache/
+__pycache__/
+*.py[cod]
+
+# ==========================================
+# 5. OS & IDE ARTIFACTS (Optional - See Note)
+# ==========================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
